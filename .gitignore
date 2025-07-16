@@ -1,0 +1,44 @@
+# Ignore MPV player binary (user-specific path)
+*.exe
+
+# Ignore video files that might be in the repo for testing
+*.mp4
+*.mkv
+*.avi
+*.mov
+*.wmv
+*.m4v
+*.ts
+*.flv
+*.webm
+
+# Ignore Windows system files
+Thumbs.db
+Desktop.ini
+
+# Ignore backup files
+*.backup
+*.bak
+*.tmp
+
+# Ignore logs
+*.log
+
+# Ignore user-specific configuration overrides
+user-config.conf
+local-settings.bat
+
+# Ignore TaskMaster files (project management)
+.taskmaster/
+
+# Ignore test files
+test-*
+debug-*
+
+# Ignore IDE/editor files
+.vscode/
+.vs/
+*.code-workspace
+
+# Ignore system directories
+System.Collections.Hashtable.ConfigDir/
